@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2023-12-26T18:21:00.106Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="jnuaLQZOkHaYvuvC6KGr" version="22.1.11" type="device">
+  <diagram name="Page-1" id="dWXkh4MSLc4cZHl39s98">
+    <mxGraphModel dx="625" dy="661" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="thjeex8G3oTrZvbCpsEL-10" value="ID_CL PK&lt;br&gt;DNI_CL&lt;br&gt;Nombre_CL&lt;br&gt;Apellido_CL&lt;br&gt;Direccion_CL&lt;br&gt;TipoCliente_TC_CL FK" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="70" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-11" value="Clientes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="55" y="70" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="thjeex8G3oTrZvbCpsEL-12" target="thjeex8G3oTrZvbCpsEL-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-12" value="NumVenta_V PK&lt;br&gt;ID_CL_V&lt;br&gt;FechaVenta_C&lt;br&gt;FormaPago_V&lt;br&gt;TotalVenta_V" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="70" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-13" value="Ventas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="70" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-14" value="NumVenta_V PK FK&lt;br&gt;CodCarne_A_DV PK FK&lt;br&gt;cantidad_DV&lt;br&gt;PrecioUnitario_DV" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="300" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-15" value="DetalleVentas" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="300" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-16" value="CodCarne_C PK&lt;br&gt;Descripcion_C&lt;br&gt;CodAnimal_C FK" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="300" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-17" value="Carnes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="535" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-18" value="CodAnimal_A PK&lt;br&gt;Descripcion_A" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-19" value="Animales" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="730" y="300" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-20" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="thjeex8G3oTrZvbCpsEL-12" target="thjeex8G3oTrZvbCpsEL-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="370" as="sourcePoint" />
+            <mxPoint x="590" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-21" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.005;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=-0.012;entryY=0.175;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="thjeex8G3oTrZvbCpsEL-14" target="thjeex8G3oTrZvbCpsEL-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="370" as="sourcePoint" />
+            <mxPoint x="590" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.005;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="351" as="sourcePoint" />
+            <mxPoint x="720" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-23" value="TipoCliente_TC&lt;br&gt;Descripcion_TC" style="shape=internalStorage;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="290" width="160" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-24" value="Tipos Cliente" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="45" y="290" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="thjeex8G3oTrZvbCpsEL-27" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.731;entryY=0.015;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="thjeex8G3oTrZvbCpsEL-10" target="thjeex8G3oTrZvbCpsEL-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="540" y="180" as="sourcePoint" />
+            <mxPoint x="590" y="130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
