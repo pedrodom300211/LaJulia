@@ -5,7 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
+    
+<meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no'>
+<!-- Boxicons CSS -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="StyleSheet.css" />
+<title></title>
     <style type="text/css">
         .auto-style1 {
             width: 100%;
@@ -22,32 +28,36 @@
         }
     </style>
 </head>
-<body>
-    <form id="form1" runat="server">
-        <div>
+<body >
+    <form id="OuterBox" runat="server">
+        <div >
             <table class="auto-style1">
                 <tr>
                     <td colspan="2">Bienvenido/a a la Julia </td>
                 </tr>
+                
                 <tr>
                     <td class="auto-style3">&nbsp;</td>
                     <td>&nbsp;</td>
                 </tr>
                 <tr>
-                    <td class="auto-style4">Ingrese el nombre de usuario:</td>
+                    <td  class='bx bx-envelope'></td>
                     <td class="auto-style2">
-                        <asp:TextBox ID="txtNombreUsuarioLogIn" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtNombreUsuarioLogIn" runat="server" placeholder="nombre@gmail.com"></asp:TextBox>
+                        
                     </td>
                 </tr>
                 <tr>
-                    <td class="auto-style3">Ingrese la contraseña del usuario:</td>
+                    <td class='bx bx-lock-alt'></td>
                     <td>
-                        <asp:TextBox ID="txtPasswordLogIn" runat="server"></asp:TextBox>
+                        <asp:TextBox ID="txtPasswordLogIn" runat="server" TextMode="Password" ></asp:TextBox>
                     </td>
                 </tr>
                 <tr>
                     <td colspan="2">
-                        <asp:Button ID="BtnAceptarLogIn" runat="server" OnClick="BtnAceptarLogIn_Click" Text="Aceptar" Width="82px" />
+                        <asp:Button ID="BtnAceptarLogIn" runat="server" OnClick="BtnAceptarLogIn_Click" Text="Aceptar"  />
+                    
+                        
                     </td>
                 </tr>
                 <tr>
