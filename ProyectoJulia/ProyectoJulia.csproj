@@ -69,6 +69,7 @@
   <ItemGroup>
     <Content Include="Vistas\LogIn.aspx" />
     <Content Include="Vistas\Prueba.aspx" />
+    <Content Include="Vistas\StyleSheet.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
